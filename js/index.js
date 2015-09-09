@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('http://drlknanda.com/doc-appointment/', '_blank', 'location=no', 'toolbar=no', 'suppressesIncrementalRendering=yes');
+        var ref = window.open('http://drlknanda.com/doc-appointment/', '_blank', 'location=no', 'toolbar=no', 'suppressesIncrementalRendering=yes', 'clearcache=yes', 'clearsessioncache=yes');
 		
 		
 		inAppBrowser.addEventListener('loadstart', function()
