@@ -17,7 +17,7 @@ Features
 Cupazo Consulting
 </author>
 
-<preference name="phonegap-version" value="3.6.3" /> 
+<preference name="phonegap-version" /> 
 	
 <preference name="AllowInlineMediaPlayback" value="false" />
 <preference name="AutoHideSplashScreen" value="true" />
